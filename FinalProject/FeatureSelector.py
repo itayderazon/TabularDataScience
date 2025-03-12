@@ -1,30 +1,10 @@
 import numpy as np
 import pandas as pd
-import time
 import warnings
-import matplotlib.pyplot as plt
-import matplotlib
-import seaborn as sns
-import networkx as nx
-
-from scipy import stats
 from scipy.stats import gaussian_kde
 from scipy.signal import find_peaks
-from scipy.cluster import hierarchy
-
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import make_scorer, accuracy_score, r2_score
-from sklearn.decomposition import PCA
-from sklearn.feature_selection import RFE
 from sklearn.base import BaseEstimator, TransformerMixin
-
-from sklearn.datasets import load_wine, fetch_california_housing, load_breast_cancer, load_diabetes, make_regression
-from matplotlib.colors import LinearSegmentedColormap
-import matplotlib.patches as patches
-
 warnings.filterwarnings('ignore')
 
 
